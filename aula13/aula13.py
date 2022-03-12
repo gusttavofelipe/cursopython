@@ -11,7 +11,9 @@ print('João', 'e', 'Maria', sep='-', end='')
 # sep='' é usado para definir o que irá separar palavas
 
 print('José', 'mohamed', sep='-', end='')
-# end='' define o que será colocado no final do comando (por padrao é uma quebra de linhaaaagit)
+# end='' define o que será colocado no final do comando (por padrao é uma quebra de linha)
+
+print('dicdd')
 
 
 
