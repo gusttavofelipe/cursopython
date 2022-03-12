@@ -13,6 +13,8 @@ print('João', 'e', 'Maria', sep='-', end='')
 print('José', 'mohamed', sep='-', end='')
 # end='' define o que será colocado no final do comando (por padrao é uma quebra de linha)
 
+print('confirmação do commit')
+
 
 
 
