@@ -17,3 +17,4 @@ print('quebrando \n a linha ')
 # para inserir um comando numa string e fazer com que seja lido como string e não interpretado adicione r antes das aspas de inicio ex abaixo:
 print(r'inserindo \n como string')
 
+
