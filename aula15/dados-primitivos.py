@@ -14,7 +14,7 @@ print(27.30, type(27.30))
 
 
 print(2730 == 2730, type(2730 == 2730))
-"""dois sinais de igual (==) indicam uma perguta (no caso: 2730 é igual a 2730?), os valores poderão ser
+"""dois sinais de igual (==) indicam uma perguta de igualdade (no caso: 2730 é igual a 2730?), os valores poderão ser
 true (verdadeiro/sim) e false (falso/não)"""
 
 # tambem podemos fazer isso com strings. ex abaixo
