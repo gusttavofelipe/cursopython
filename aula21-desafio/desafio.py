@@ -8,4 +8,4 @@ ano_de_nascimento = ano_atual - idade
 
 print(f'{nome} tem {idade} anos, {altura:.1f} de altura e pesa {peso}kg')
 print(f'o IMC de {nome} é {imc:.2f}')
-print(f'{nome} nasceu em {ano_de_nascimento}')
+print(f'{nome} nasceu em {ano_de_nascimento}' )
