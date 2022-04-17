@@ -1,7 +1,7 @@
 
-secreto = 'perfume'
+secreto = 'antropofago'
 digitadas = []  #lista vazia
-chances = 6
+chances = 8
 
 while True:
     letra = input('Digite uma letra: ')
@@ -26,7 +26,7 @@ while True:
 
     if temporario == secreto:
         print('CONGRATULATIONS, YOU WINSS  :)')
-        print('A PALAVRA SECRETA É: perfume')
+        print(f'A PALAVRA SECRETA É: {secreto}')
         break
     else:
         print(f' Palavra secreta: {temporario}')
