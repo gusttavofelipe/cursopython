@@ -1,5 +1,5 @@
 
-secreto = 'antropofago'
+secreto = 'alex'
 digitadas = []  #lista vazia
 chances = 8
 
