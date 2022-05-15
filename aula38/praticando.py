@@ -1,5 +1,5 @@
 
-secreto = 'alex'
+secreto = 'antropofago'
 digitadas = []  #lista vazia
 chances = 8
 
@@ -13,8 +13,10 @@ while True:
 
     if letra in secreto:
         print(f'Boa! "{letra}" está na palavra secreta')
+        print()
     else:
         print(f'Poxa! "{letra}" não está na palavra secreta')
+        print()
         digitadas.pop()  #pop() remove o ultimo valor da lista
 
     temporario = ''
@@ -30,6 +32,7 @@ while True:
         break
     else:
         print(f' Palavra secreta: {temporario}')
+        print()
     if letra not in secreto:
         chances -= 1
         print(f'Você tem {chances} chances')
