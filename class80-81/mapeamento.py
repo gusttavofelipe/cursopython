@@ -23,3 +23,4 @@ reajustado = map(reajuste, produtos)
 
 for produto in reajustado:  # iterando sobre valores reajustados
     print(produto)
+    
