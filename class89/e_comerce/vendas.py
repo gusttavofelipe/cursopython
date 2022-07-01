@@ -1,5 +1,5 @@
 
-from e_comerce.formata import preco # importando modulo "preco" do subpacote de "e_comerce" formata
+from e_comerce.formata import preco # importando modulo "preco" do subpacote de "e_comerce", "formata"
 
 def aumento(valor, porcentagem, formata=False): # aumenta o valor do preço de acordo com a porcentagem informada. 
     r = valor+(valor*(porcentagem/100))
