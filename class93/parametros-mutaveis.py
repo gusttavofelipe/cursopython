@@ -1,9 +1,9 @@
 
-'''NÃO é aconselhavel usar objetos mutaveis como listas como parametros padrão de funções,
+'''NÃO é aconselhavel usar objetos mutaveis como listas como parametros de funções,
 pois pode resultar em comportamentos estranhos.'''
 
 def lista_de_clientes(clientes_iteravel, lista=None):
-    if lista is None: # solução para tais comportamentos
+    if lista is None: # uma solução para tais comportamentos (nesse caso especifico)
         lista = []    
     lista.extend(clientes_iteravel)
     return lista
