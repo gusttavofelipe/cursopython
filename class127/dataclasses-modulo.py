@@ -8,7 +8,7 @@ from dataclasses import dataclass
 from dataclasses import field
 from dataclasses import asdict, astuple
 
-            # 
+            
 @dataclass(eq=True, order=True, repr=True, frozen=False, init=True)
 class Pessoa: 
    nome: str
