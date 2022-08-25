@@ -9,7 +9,7 @@ with open(f'{BASE_DIR}/class139/cliente.csv', 'r') as arquivo:
     
     for dado in dados:
         print(dado['Nome'],dado['Sobrenome'],dado['E-mail'],dado['Telefone'])
-        print(dado)
+        # print(dado)
 
 #-----------------------------------------------------------------------------------------------------------------------------------
 with open(f'{BASE_DIR}/class139/cliente2.csv', 'w+') as arquivo2:
