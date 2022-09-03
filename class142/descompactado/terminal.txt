@@ -1,0 +1,5 @@
+
+tree - lista arquivos de diretorios em ramificações
+pwd - mostra o caminho até o diretorio atual
+mkdir+nome - cria um diretorio
+rm - apaga o diretorio e todos os arquivos
