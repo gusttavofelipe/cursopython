@@ -13,12 +13,12 @@ class Selenium:
     def __init__(self):
         logger.info('Iniciando Scraping')
         chrome_options = Options()
-        chrome_options.add_argument('--headless')
+        chrome_options.add_argument('--no-headless')
         chrome_options.add_argument('--no-sandbox')
         chrome_options.add_argument('--disable-dev-shm-usage')
 
         logger.info('Iniciando Chrome')
-        self.driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))    
+        self.driver = webdriver.Chrome(options=chrome_options, service=Service(ChromeDriverManager().install()))    
         logger.info('Chrome iniciado com sucesso')   
 
     def acessa(self, url):
