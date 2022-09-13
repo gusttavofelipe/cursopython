@@ -1,7 +1,7 @@
 import PyPDF2
 import os
 
-''' # juntando PDFS
+# juntando PDFS
 caminho_pdf = '/home/gustavo-pop/projetos/cursopython/class150/pdfs/'
 novo_pdf = PyPDF2.PdfFileMerger()
 
@@ -15,8 +15,9 @@ for raiz, diretorios, arquivos in os.walk(caminho_pdf):
 
 with open(f'{caminho_pdf}/novo_pdf.pdf', 'wb') as pdf_gerado: # escrevendo em modo binario
     novo_pdf.write(pdf_gerado)
-    '''
+  
 
+# separando paginas de um PDF
 with open('/home/gustavo-pop/projetos/cursopython/class150/pdfs/novo_pdf.pdf', 'rb') as arq_pdf:
     leitor = PyPDF2.PdfFileReader(arq_pdf) # lendo pdf
     num_paginas = leitor.getNumPages() # obtem o numero de pages de um pdf
@@ -27,4 +28,4 @@ with open('/home/gustavo-pop/projetos/cursopython/class150/pdfs/novo_pdf.pdf', '
         escritor.addPage(pagina_atual)
 
         with open(f'/home/gustavo-pop/projetos/cursopython/class150/novos-pdfs/{pagina}.pdf', 'wb') as novo_pdf:
-            escritor.write(novo_pdf)
+            escritor.write(novo_pdf) # escrevendo novas paginas
